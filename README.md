@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/react-command-lib.svg)](https://badge.fury.io/js/react-command-lib)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # react-command-lib
 This library provides your React project with simple command system.
 
