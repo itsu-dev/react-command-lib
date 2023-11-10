@@ -4,8 +4,8 @@ This library provides your React project with simple command system.
 ## Usage
 
 ```tsx
-import useCommandExecutor from "./useCommandExecutor";
-import {useState} from "react";
+import useCommandExecutor from 'react-command-lib/dist/esm';
+import {useState} from 'react';
 
 class TestCommand implements AbstractCommand {
     private n: number;
