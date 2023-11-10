@@ -43,8 +43,8 @@ export default function TestComponent() {
 
     return <>
         <button onClick={onExecuteCick}>Execute</button>
-        <button onClick={onUndoClick}>Undo</button>
-        <button onClick={onRedoClick}>Redo</button>
+        <button style={{color: executor.isUndoable ? 'black' : 'red'}} onClick={onUndoClick}>Undo</button>
+        <button style={{color: executor.isRedoable ? 'black' : 'red'}} onClick={onRedoClick}>Redo</button>
     </>;
 }
 ```
