@@ -5,14 +5,33 @@
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "type": "module",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
   "dependencies": {
     "@types/jest": "^27.5.2",
     "@types/node": "^16.18.61",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "react-scripts": "^5.0.1",
+    "rollup": "^4.3.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,17 +46,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-typescript": "^11.1.5",
-    "eslint": "^8.53.0",
-    "eslint-config-prettier": "^9.0.0",
-    "prettier": "^3.0.3",
-    "react-scripts": "^5.0.1",
-    "rollup": "^4.3.0",
-    "rollup-plugin-dts": "^6.1.0",
-    "tslib": "^2.6.2"
   },
   "browserslist": {
     "production": [
