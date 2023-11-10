@@ -1,4 +1,4 @@
-# eact-command-lib
+# react-command-lib
 This library provides your React project with simple command system.
 
 ## Usage
