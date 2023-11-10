@@ -1,4 +1,4 @@
-# @itsu-dev/react-command-lib
+# eact-command-lib
 This library provides your React project with simple command system.
 
 ## Usage
@@ -7,7 +7,7 @@ This library provides your React project with simple command system.
 import useCommandExecutor from "./useCommandExecutor";
 import {useState} from "react";
 
-class TestCommand extends AbstractCommand {
+class TestCommand implements AbstractCommand {
     private n: number;
     constructor(n: number) {
         super();
