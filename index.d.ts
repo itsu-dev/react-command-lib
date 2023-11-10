@@ -1,3 +1,5 @@
+import useCommandExecutor from "./src/useCommandExecutor";
+
 /**
  * Command Interface.
  */
@@ -17,11 +19,11 @@ export type CommandExecutor = {
   isRedoable: boolean;
 };
 
-type Args = {
+export type Args = {
   /**
    * Max Command Stack Size
    */
   maxStackSize?: number;
 };
 
-export type useCommandExecutor = (args?: Args) => CommandExecutor;
+export declare function useCommandExecutor(args?: Args): CommandExecutor;

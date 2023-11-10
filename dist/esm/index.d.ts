@@ -24,6 +24,6 @@ type Args = {
   maxStackSize?: number;
 };
 
-type useCommandExecutor = (args?: Args) => CommandExecutor;
+declare function useCommandExecutor(args?: Args): CommandExecutor;
 
-export type { AbstractCommand, CommandExecutor, useCommandExecutor };
+export { type AbstractCommand, type Args, type CommandExecutor, useCommandExecutor };
