@@ -26,4 +26,4 @@ type Args = {
 
 declare function useCommandExecutor(args?: Args): CommandExecutor;
 
-export { type AbstractCommand, type Args, type CommandExecutor, useCommandExecutor };
+export { type AbstractCommand, type Args, type CommandExecutor, useCommandExecutor as default };

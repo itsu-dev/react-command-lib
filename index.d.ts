@@ -1,5 +1,3 @@
-import useCommandExecutor from "./src/useCommandExecutor";
-
 /**
  * Command Interface.
  */
@@ -26,4 +24,5 @@ export type Args = {
   maxStackSize?: number;
 };
 
-export declare function useCommandExecutor(args?: Args): CommandExecutor;
+declare function useCommandExecutor(args?: Args): CommandExecutor;
+export default useCommandExecutor;
